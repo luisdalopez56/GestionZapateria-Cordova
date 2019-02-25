@@ -1,0 +1,12 @@
+La ip que tiene puesta por defecto solo la hace funcional a nivel local. Si se quiere
+probar en la apk hay que entrar en el archivo /frontend-zapp/www/js/controller.js y 
+cambiar el host que tiene puesto "localhost" por la ip en cuestión. Adjunto imágenes 
+de la apk corriendo. (Solo realizo listado de los elementos pero es totalmente funcional)
+
+Dentro de /frontend-zapp/platforms/android/app/build/outputs/apk/debug/ se encuentra la apk
+del proyecto ya creada, pero esta no funciona ya que tiene introducida una IP de prueba.
+
+Ejecutar cordova build android desde la raiz del frontend para generarla de nuevo.
+
+Luis David Lopez Uceda
+ 
